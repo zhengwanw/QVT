@@ -1,7 +1,8 @@
 # Implementation Instruction of QVT
 
 [1]	Download QVT.R , then open it using free software R (https://cran.r-project.org/)  or R Studio (https://www.rstudio.com/products/rstudio/download/).  
-[2]	Lines 3-7: show the required R packages.   If these packages have been downloaded before, run lines 3-7 directly, or install the missing packages using install.packages(“XX”) function.  
+[2]	Lines 3-7: show the required R packages.  
+If these packages have been downloaded before, run lines 3-7 directly, or install the missing packages using install.packages(“XX”) function.  
 [3]	Lines 10-29: the function of computing macro-F, which works as the performance metric.   The other performance metric AUC will be obtained using package ROCR.  
 [4]	Line 32: read in the data. Here the read.delim() function is used as an example.  
 [5]	Lines 35-44: the data preprocessing, including making the small-sample-size data.   Here 50 samples are extracted from each class randomly. The value can be changed.  
