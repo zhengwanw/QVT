@@ -9,6 +9,7 @@
 [7]	Lines 55-57: perform the data normalization.  
 [8]	Lines 60-168: the implementation of QVT.  
 [9]	Line 170: output the result of feature selection (data: halloffame, feature selection method base: lasso), which is shown as follows. The num is the number of column of variable in the original data, score is the importance score.  
+![Alt text](https://github.com/zhengwanw/QVT/edit/main/picture/pic1.png)
 [10]	Lines 173-210: using classifier svm to build the learning model, and test the performance. The numOfvari is the used number of top features in building the learning model. QVT(Lasso)_SVM_F is the value of macro_F, QVT(Lasso)_SVM_AUC is the value of AUC.  
- 
+ ![Alt text](https://github.com/zhengwanw/QVT/edit/main/picture/pic2.png)
 
